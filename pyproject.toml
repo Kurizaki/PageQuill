@@ -1,0 +1,22 @@
+[project]
+name = "pagequill"
+version = "0.1.0"
+description = "A desktop publishing app for static GitHub blogs."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "markdown-it-py>=3.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0",
+]
+
+[project.scripts]
+pagequill = "pagequill.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+

@@ -1,0 +1,13 @@
+body {
+  color: #0f172a;
+  font-family: Georgia, serif;
+  line-height: 1.7;
+  margin: 0 auto;
+  max-width: 720px;
+  padding: 40px 20px;
+}
+
+a {
+  color: #2563eb;
+}
+

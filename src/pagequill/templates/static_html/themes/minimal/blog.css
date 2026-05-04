@@ -1,0 +1,13 @@
+body {
+  color: #1f2937;
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 760px;
+  padding: 32px 20px;
+}
+
+a {
+  color: #0f766e;
+}
+
